@@ -109,7 +109,7 @@ CGRect BoundingBox(NSArray *points) {
 
 NSMutableArray* Splice(NSMutableArray *original, id newVal, int i) {
     NSArray *frontSlice = [original subarrayWithRange:NSMakeRange(0, i)];
-    int len = original.count-i;
+    NSUInteger len = original.count-i;
     NSArray *backSlice = [original subarrayWithRange:NSMakeRange(i, len)];
     
     NSMutableArray *spliced = [NSMutableArray arrayWithArray:frontSlice];

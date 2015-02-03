@@ -57,7 +57,7 @@
 - (void)createTemplates {
     
     // permute over all possible directions (heapPermute)
-    [self permuteStrokeOrders:[strokeOrders count]];
+    [self permuteStrokeOrders:(int)[strokeOrders count]];
     DebugLog(@"Permuted stroke orders %@", permutedStrokeOrders);
     
     // create WTMGlyphTemplates from all unistrokes
@@ -71,7 +71,7 @@
         [self.templates addObject:newTemplate];
     }
     DebugLog(@"Templates %@", self.templates);
-    DebugLog(@"Template count %i", [self.templates count]);
+    DebugLog(@"Template count %lu", (unsigned long)[self.templates count]);
 }
 
 - (void)createTemplatesFromJSONData:(NSData *)jsonData {

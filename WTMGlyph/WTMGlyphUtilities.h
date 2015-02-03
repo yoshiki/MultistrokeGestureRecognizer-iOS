@@ -13,7 +13,7 @@
 typedef struct FloatArrayContainer {
     float * items;
     int itemCount;
-    int allocatedCount;
+    unsigned long allocatedCount;
 } FloatArrayContainer;
 
 NSArray* Resample(NSArray *points, int num);
