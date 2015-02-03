@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D6A7A5351A80A9B600237996 /* WTMDetectionResult.h in Headers */ = {isa = PBXBuildFile; fileRef = D6A7A5331A80A9B600237996 /* WTMDetectionResult.h */; };
+		D6A7A5361A80A9B700237996 /* WTMDetectionResult.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A7A5341A80A9B600237996 /* WTMDetectionResult.m */; };
+		D6A7A5381A80A9DF00237996 /* WTMGlyph.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EA6C931F136DA48E008AD709 /* WTMGlyph.h */; };
+		D6A7A5391A80A9DF00237996 /* WTMGlyphDetector.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EA6C9323136DA5CE008AD709 /* WTMGlyphDetector.h */; };
+		D6A7A53A1A80A9DF00237996 /* WTMGlyphDelegate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EA278049136DAD6A00E3065A /* WTMGlyphDelegate.h */; };
+		D6A7A53B1A80A9DF00237996 /* WTMGlyphDefaults.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EA27804E136DB9D400E3065A /* WTMGlyphDefaults.h */; };
+		D6A7A53C1A80A9DF00237996 /* WTMGlyphStroke.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EA5836FC137F6BDF0074BB72 /* WTMGlyphStroke.h */; };
+		D6A7A53D1A80A9DF00237996 /* WTMGlyphTemplate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EA583701138015020074BB72 /* WTMGlyphTemplate.h */; };
+		D6A7A53E1A80A9DF00237996 /* WTMGlyphUtilities.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EA4860EB1380411900E40C6C /* WTMGlyphUtilities.h */; };
+		D6A7A53F1A80A9DF00237996 /* WTMDetectionResult.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D6A7A5331A80A9B600237996 /* WTMDetectionResult.h */; };
 		EA1BA9AC138E71BF00D9A7B9 /* CDataScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = EA1BA994138E71BF00D9A7B9 /* CDataScanner.h */; };
 		EA1BA9AD138E71BF00D9A7B9 /* CDataScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1BA995138E71BF00D9A7B9 /* CDataScanner.m */; };
 		EA1BA9AE138E71BF00D9A7B9 /* CFilteringJSONSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = EA1BA997138E71BF00D9A7B9 /* CFilteringJSONSerializer.h */; };
@@ -61,7 +71,29 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D6A7A5371A80A9C600237996 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PROJECT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				D6A7A5381A80A9DF00237996 /* WTMGlyph.h in CopyFiles */,
+				D6A7A5391A80A9DF00237996 /* WTMGlyphDetector.h in CopyFiles */,
+				D6A7A53A1A80A9DF00237996 /* WTMGlyphDelegate.h in CopyFiles */,
+				D6A7A53B1A80A9DF00237996 /* WTMGlyphDefaults.h in CopyFiles */,
+				D6A7A53C1A80A9DF00237996 /* WTMGlyphStroke.h in CopyFiles */,
+				D6A7A53D1A80A9DF00237996 /* WTMGlyphTemplate.h in CopyFiles */,
+				D6A7A53E1A80A9DF00237996 /* WTMGlyphUtilities.h in CopyFiles */,
+				D6A7A53F1A80A9DF00237996 /* WTMDetectionResult.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		D6A7A5331A80A9B600237996 /* WTMDetectionResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTMDetectionResult.h; sourceTree = "<group>"; };
+		D6A7A5341A80A9B600237996 /* WTMDetectionResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTMDetectionResult.m; sourceTree = "<group>"; };
 		EA1BA994138E71BF00D9A7B9 /* CDataScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDataScanner.h; sourceTree = "<group>"; };
 		EA1BA995138E71BF00D9A7B9 /* CDataScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDataScanner.m; sourceTree = "<group>"; };
 		EA1BA997138E71BF00D9A7B9 /* CFilteringJSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFilteringJSONSerializer.h; sourceTree = "<group>"; };
@@ -238,6 +270,8 @@
 				EA583702138015020074BB72 /* WTMGlyphTemplate.m */,
 				EA4860EB1380411900E40C6C /* WTMGlyphUtilities.h */,
 				EA4860EC1380411900E40C6C /* WTMGlyphUtilities.m */,
+				D6A7A5331A80A9B600237996 /* WTMDetectionResult.h */,
+				D6A7A5341A80A9B600237996 /* WTMDetectionResult.m */,
 				EACF224013ACF70F00B41B67 /* LICENSE */,
 			);
 			path = WTMGlyph;
@@ -308,6 +342,7 @@
 				EA1BA9BC138E71BF00D9A7B9 /* CJSONScanner.h in Headers */,
 				EA1BA9BE138E71BF00D9A7B9 /* CJSONSerializer.h in Headers */,
 				EA1BA9C0138E71BF00D9A7B9 /* JSONRepresentation.h in Headers */,
+				D6A7A5351A80A9B600237996 /* WTMDetectionResult.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +356,7 @@
 				EA6C92F2136DA457008AD709 /* Sources */,
 				EA6C92F3136DA457008AD709 /* Frameworks */,
 				EA6C92F4136DA457008AD709 /* Headers */,
+				D6A7A5371A80A9C600237996 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -348,7 +384,7 @@
 			name = WTMGlyphTests;
 			productName = WTMGlyphTests;
 			productReference = EA6C9303136DA457008AD709 /* WTMGlyphTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -410,6 +446,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6A7A5361A80A9B700237996 /* WTMDetectionResult.m in Sources */,
 				EA6C9322136DA48E008AD709 /* WTMGlyph.m in Sources */,
 				EA6C9326136DA5CE008AD709 /* WTMGlyphDetector.m in Sources */,
 				EA278051136DB9D400E3065A /* WTMGlyphDefaults.m in Sources */,

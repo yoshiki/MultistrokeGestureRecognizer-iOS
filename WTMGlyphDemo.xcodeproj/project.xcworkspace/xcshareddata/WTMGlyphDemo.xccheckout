@@ -10,29 +10,29 @@
 	<string>WTMGlyphDemo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>9737DB2C-A89E-4236-998E-84EE918FBC38</key>
-		<string>https://github.com/prateekpradhan/MultistrokeGestureRecognizer-iOS.git</string>
+		<key>44D32FDC8B861BED4792038D120ADEC05357601E</key>
+		<string>github.com:yoshiki/MultistrokeGestureRecognizer-iOS.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>WTMGlyphDemo.xcodeproj/project.xcworkspace</string>
+	<string>WTMGlyphDemo.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>9737DB2C-A89E-4236-998E-84EE918FBC38</key>
+		<key>44D32FDC8B861BED4792038D120ADEC05357601E</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/prateekpradhan/MultistrokeGestureRecognizer-iOS.git</string>
+	<string>github.com:yoshiki/MultistrokeGestureRecognizer-iOS.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>9737DB2C-A89E-4236-998E-84EE918FBC38</string>
+	<string>44D32FDC8B861BED4792038D120ADEC05357601E</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>9737DB2C-A89E-4236-998E-84EE918FBC38</string>
+			<string>44D32FDC8B861BED4792038D120ADEC05357601E</string>
 			<key>IDESourceControlWCCName</key>
 			<string>MultistrokeGestureRecognizer-iOS</string>
 		</dict>

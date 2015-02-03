@@ -36,6 +36,10 @@
 - (id)initWithName:(NSString *)_name strokes:(NSMutableArray *)_strokes {
     if (!(self = [self init])) return nil;
     self.name = _name;
+    self.strokes = _strokes;
+    for (int i = 0; i < [self.strokes count]; i++) {
+        [strokeOrders addObject:[NSNumber numberWithInt:i]];
+    }
     [self createTemplates];
     return self;
 }
