@@ -28,6 +28,7 @@
 @property (nonatomic, strong) NSMutableArray *glyphs;
 @property (nonatomic, assign) NSInteger timeoutSeconds;
 
++ (id)sharedDetector;
 + (id)detector;
 + (id)defaultDetector;
 - (id)init;

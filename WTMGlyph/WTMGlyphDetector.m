@@ -20,6 +20,16 @@
 
 #pragma mark - Lifecycle
 
++ (instancetype)sharedDetector
+{
+    static dispatch_once_t onceToken;
+    static WTMGlyphDetector *_sharedGlyphDetector;
+    dispatch_once(&onceToken, ^{
+        _sharedGlyphDetector = [[WTMGlyphDetector alloc] init];
+    });
+    return _sharedGlyphDetector;
+}
+
 + (id)detector 
 {
     return [[WTMGlyphDetector alloc] init];
